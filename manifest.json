@@ -1,0 +1,19 @@
+{
+  "name": "Word dictionary",
+  "description": "Add words to your personal words storage",
+  "version": "1.0",
+  "manifest_version": 3,
+  "icons": {
+    "16": "assets/book_16.png",
+    "32": "assets/book_32.png",
+    "64": "assets/book_64.png",
+    "128": "assets/book_128.png"
+  },
+  "action": {
+    "default_popup": "popup/popup.html"
+  },
+  "permissions": ["scripting", "activeTab"],
+  "background": {
+    "scripts": ["background.js"]
+  }
+}
